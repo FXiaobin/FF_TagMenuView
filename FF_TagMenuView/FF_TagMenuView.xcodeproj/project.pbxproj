@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0440DFE12109903B00006D55 /* TagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0440DFE02109903B00006D55 /* TagView.m */; };
+		0440DFE42109906200006D55 /* TagViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0440DFE32109906200006D55 /* TagViewViewController.m */; };
+		04DA31B72108781F004E031B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DA31B62108781F004E031B /* AppDelegate.m */; };
+		04DA31BD2108781F004E031B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DA31BB2108781F004E031B /* Main.storyboard */; };
+		04DA31BF21087821004E031B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DA31BE21087821004E031B /* Assets.xcassets */; };
+		04DA31C221087821004E031B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DA31C021087821004E031B /* LaunchScreen.storyboard */; };
+		04DA31C521087821004E031B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DA31C421087821004E031B /* main.m */; };
+		7238575A09473776A9A3311C /* libPods-FF_TagMenuViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC2FF9B3E38A5C9C328E3B1 /* libPods-FF_TagMenuViewTests.a */; };
+		C3363D49B7979DF75EE408AA /* libPods-FF_TagMenuView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7966B84F3B93762609C7D7B /* libPods-FF_TagMenuView.a */; };
+		ED320BF73E8B64649EF4D4E9 /* libPods-FF_TagMenuViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4257BA9383608C721A39F2DA /* libPods-FF_TagMenuViewUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04DA31CB21087821004E031B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04DA31AA2108781F004E031B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04DA31B12108781F004E031B;
+			remoteInfo = FF_TagMenuView;
+		};
+		04DA31D621087821004E031B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04DA31AA2108781F004E031B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04DA31B12108781F004E031B;
+			remoteInfo = FF_TagMenuView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0440DFDF2109903B00006D55 /* TagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagView.h; sourceTree = "<group>"; };
+		0440DFE02109903B00006D55 /* TagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagView.m; sourceTree = "<group>"; };
+		0440DFE22109906200006D55 /* TagViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TagViewViewController.h; sourceTree = "<group>"; };
+		0440DFE32109906200006D55 /* TagViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TagViewViewController.m; sourceTree = "<group>"; };
+		04DA31B22108781F004E031B /* FF_TagMenuView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FF_TagMenuView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04DA31B52108781F004E031B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04DA31B62108781F004E031B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04DA31BC2108781F004E031B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04DA31BE21087821004E031B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04DA31C121087821004E031B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04DA31C321087821004E031B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04DA31C421087821004E031B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04DA31CA21087821004E031B /* FF_TagMenuViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FF_TagMenuViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04DA31D521087821004E031B /* FF_TagMenuViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FF_TagMenuViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FEEDD3EB65BC1B4EDD062D2 /* Pods-FF_TagMenuViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FF_TagMenuViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FF_TagMenuViewUITests/Pods-FF_TagMenuViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1A6E294E53AF9CDC7E1A9905 /* Pods-FF_TagMenuViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FF_TagMenuViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FF_TagMenuViewTests/Pods-FF_TagMenuViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1AC2FF9B3E38A5C9C328E3B1 /* libPods-FF_TagMenuViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FF_TagMenuViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22D8FCF4C5ECEC1EEB82E981 /* Pods-FF_TagMenuView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FF_TagMenuView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FF_TagMenuView/Pods-FF_TagMenuView.debug.xcconfig"; sourceTree = "<group>"; };
+		23BE5671C1F1CC0A74C68DED /* Pods-FF_TagMenuViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FF_TagMenuViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FF_TagMenuViewUITests/Pods-FF_TagMenuViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4257BA9383608C721A39F2DA /* libPods-FF_TagMenuViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FF_TagMenuViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AC9E23BFD60226CE2F25459 /* Pods-FF_TagMenuViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FF_TagMenuViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FF_TagMenuViewTests/Pods-FF_TagMenuViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		C363817F5AB5FE35CCB8A506 /* Pods-FF_TagMenuView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FF_TagMenuView.release.xcconfig"; path = "Pods/Target Support Files/Pods-FF_TagMenuView/Pods-FF_TagMenuView.release.xcconfig"; sourceTree = "<group>"; };
+		D7966B84F3B93762609C7D7B /* libPods-FF_TagMenuView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FF_TagMenuView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04DA31AF2108781F004E031B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3363D49B7979DF75EE408AA /* libPods-FF_TagMenuView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DA31C721087821004E031B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7238575A09473776A9A3311C /* libPods-FF_TagMenuViewTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DA31D221087821004E031B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED320BF73E8B64649EF4D4E9 /* libPods-FF_TagMenuViewUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04DA31A92108781F004E031B = {
+			isa = PBXGroup;
+			children = (
+				04DA31B42108781F004E031B /* FF_TagMenuView */,
+				04DA31B32108781F004E031B /* Products */,
+				10B086A20F409C477E5E4D47 /* Pods */,
+				92F6B314C385F73E809695F6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04DA31B32108781F004E031B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04DA31B22108781F004E031B /* FF_TagMenuView.app */,
+				04DA31CA21087821004E031B /* FF_TagMenuViewTests.xctest */,
+				04DA31D521087821004E031B /* FF_TagMenuViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04DA31B42108781F004E031B /* FF_TagMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				04DA31B52108781F004E031B /* AppDelegate.h */,
+				04DA31B62108781F004E031B /* AppDelegate.m */,
+				0440DFE22109906200006D55 /* TagViewViewController.h */,
+				0440DFE32109906200006D55 /* TagViewViewController.m */,
+				0440DFDF2109903B00006D55 /* TagView.h */,
+				0440DFE02109903B00006D55 /* TagView.m */,
+				04DA31BB2108781F004E031B /* Main.storyboard */,
+				04DA31BE21087821004E031B /* Assets.xcassets */,
+				04DA31C021087821004E031B /* LaunchScreen.storyboard */,
+				04DA31C321087821004E031B /* Info.plist */,
+				04DA31C421087821004E031B /* main.m */,
+			);
+			path = FF_TagMenuView;
+			sourceTree = "<group>";
+		};
+		10B086A20F409C477E5E4D47 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				22D8FCF4C5ECEC1EEB82E981 /* Pods-FF_TagMenuView.debug.xcconfig */,
+				C363817F5AB5FE35CCB8A506 /* Pods-FF_TagMenuView.release.xcconfig */,
+				1A6E294E53AF9CDC7E1A9905 /* Pods-FF_TagMenuViewTests.debug.xcconfig */,
+				8AC9E23BFD60226CE2F25459 /* Pods-FF_TagMenuViewTests.release.xcconfig */,
+				0FEEDD3EB65BC1B4EDD062D2 /* Pods-FF_TagMenuViewUITests.debug.xcconfig */,
+				23BE5671C1F1CC0A74C68DED /* Pods-FF_TagMenuViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		92F6B314C385F73E809695F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7966B84F3B93762609C7D7B /* libPods-FF_TagMenuView.a */,
+				1AC2FF9B3E38A5C9C328E3B1 /* libPods-FF_TagMenuViewTests.a */,
+				4257BA9383608C721A39F2DA /* libPods-FF_TagMenuViewUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04DA31B12108781F004E031B /* FF_TagMenuView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04DA31DE21087821004E031B /* Build configuration list for PBXNativeTarget "FF_TagMenuView" */;
+			buildPhases = (
+				F7A5EB64CC046114DC861C81 /* [CP] Check Pods Manifest.lock */,
+				04DA31AE2108781F004E031B /* Sources */,
+				04DA31AF2108781F004E031B /* Frameworks */,
+				04DA31B02108781F004E031B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FF_TagMenuView;
+			productName = FF_TagMenuView;
+			productReference = 04DA31B22108781F004E031B /* FF_TagMenuView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04DA31C921087821004E031B /* FF_TagMenuViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04DA31E121087821004E031B /* Build configuration list for PBXNativeTarget "FF_TagMenuViewTests" */;
+			buildPhases = (
+				595B6B4034CB55089C84A34A /* [CP] Check Pods Manifest.lock */,
+				04DA31C621087821004E031B /* Sources */,
+				04DA31C721087821004E031B /* Frameworks */,
+				04DA31C821087821004E031B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04DA31CC21087821004E031B /* PBXTargetDependency */,
+			);
+			name = FF_TagMenuViewTests;
+			productName = FF_TagMenuViewTests;
+			productReference = 04DA31CA21087821004E031B /* FF_TagMenuViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04DA31D421087821004E031B /* FF_TagMenuViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04DA31E421087821004E031B /* Build configuration list for PBXNativeTarget "FF_TagMenuViewUITests" */;
+			buildPhases = (
+				CB6894459A4A1580CD423403 /* [CP] Check Pods Manifest.lock */,
+				04DA31D121087821004E031B /* Sources */,
+				04DA31D221087821004E031B /* Frameworks */,
+				04DA31D321087821004E031B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04DA31D721087821004E031B /* PBXTargetDependency */,
+			);
+			name = FF_TagMenuViewUITests;
+			productName = FF_TagMenuViewUITests;
+			productReference = 04DA31D521087821004E031B /* FF_TagMenuViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04DA31AA2108781F004E031B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = healifeGroup;
+				TargetAttributes = {
+					04DA31B12108781F004E031B = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					04DA31C921087821004E031B = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 04DA31B12108781F004E031B;
+					};
+					04DA31D421087821004E031B = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 04DA31B12108781F004E031B;
+					};
+				};
+			};
+			buildConfigurationList = 04DA31AD2108781F004E031B /* Build configuration list for PBXProject "FF_TagMenuView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04DA31A92108781F004E031B;
+			productRefGroup = 04DA31B32108781F004E031B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04DA31B12108781F004E031B /* FF_TagMenuView */,
+				04DA31C921087821004E031B /* FF_TagMenuViewTests */,
+				04DA31D421087821004E031B /* FF_TagMenuViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04DA31B02108781F004E031B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DA31C221087821004E031B /* LaunchScreen.storyboard in Resources */,
+				04DA31BF21087821004E031B /* Assets.xcassets in Resources */,
+				04DA31BD2108781F004E031B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DA31C821087821004E031B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DA31D321087821004E031B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		595B6B4034CB55089C84A34A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FF_TagMenuViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB6894459A4A1580CD423403 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FF_TagMenuViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7A5EB64CC046114DC861C81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FF_TagMenuView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04DA31AE2108781F004E031B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0440DFE42109906200006D55 /* TagViewViewController.m in Sources */,
+				0440DFE12109903B00006D55 /* TagView.m in Sources */,
+				04DA31C521087821004E031B /* main.m in Sources */,
+				04DA31B72108781F004E031B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DA31C621087821004E031B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DA31D121087821004E031B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04DA31CC21087821004E031B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04DA31B12108781F004E031B /* FF_TagMenuView */;
+			targetProxy = 04DA31CB21087821004E031B /* PBXContainerItemProxy */;
+		};
+		04DA31D721087821004E031B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04DA31B12108781F004E031B /* FF_TagMenuView */;
+			targetProxy = 04DA31D621087821004E031B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04DA31BB2108781F004E031B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04DA31BC2108781F004E031B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04DA31C021087821004E031B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04DA31C121087821004E031B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04DA31DC21087821004E031B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04DA31DD21087821004E031B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04DA31DF21087821004E031B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22D8FCF4C5ECEC1EEB82E981 /* Pods-FF_TagMenuView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FF_TagMenuView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "healifeGroup.FF-TagMenuView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04DA31E021087821004E031B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C363817F5AB5FE35CCB8A506 /* Pods-FF_TagMenuView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FF_TagMenuView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "healifeGroup.FF-TagMenuView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04DA31E221087821004E031B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A6E294E53AF9CDC7E1A9905 /* Pods-FF_TagMenuViewTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FF_TagMenuViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "healifeGroup.FF-TagMenuViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FF_TagMenuView.app/FF_TagMenuView";
+			};
+			name = Debug;
+		};
+		04DA31E321087821004E031B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AC9E23BFD60226CE2F25459 /* Pods-FF_TagMenuViewTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FF_TagMenuViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "healifeGroup.FF-TagMenuViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FF_TagMenuView.app/FF_TagMenuView";
+			};
+			name = Release;
+		};
+		04DA31E521087821004E031B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FEEDD3EB65BC1B4EDD062D2 /* Pods-FF_TagMenuViewUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FF_TagMenuViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "healifeGroup.FF-TagMenuViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FF_TagMenuView;
+			};
+			name = Debug;
+		};
+		04DA31E621087821004E031B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23BE5671C1F1CC0A74C68DED /* Pods-FF_TagMenuViewUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FF_TagMenuViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "healifeGroup.FF-TagMenuViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FF_TagMenuView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04DA31AD2108781F004E031B /* Build configuration list for PBXProject "FF_TagMenuView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DA31DC21087821004E031B /* Debug */,
+				04DA31DD21087821004E031B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04DA31DE21087821004E031B /* Build configuration list for PBXNativeTarget "FF_TagMenuView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DA31DF21087821004E031B /* Debug */,
+				04DA31E021087821004E031B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04DA31E121087821004E031B /* Build configuration list for PBXNativeTarget "FF_TagMenuViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DA31E221087821004E031B /* Debug */,
+				04DA31E321087821004E031B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04DA31E421087821004E031B /* Build configuration list for PBXNativeTarget "FF_TagMenuViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DA31E521087821004E031B /* Debug */,
+				04DA31E621087821004E031B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04DA31AA2108781F004E031B /* Project object */;
+}

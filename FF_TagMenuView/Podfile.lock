@@ -1,0 +1,24 @@
+PODS:
+  - JQCollectionViewAlignLayout (0.1.2)
+  - Masonry (1.1.0)
+  - UICollectionViewLeftAlignedLayout (1.0.2)
+
+DEPENDENCIES:
+  - JQCollectionViewAlignLayout
+  - Masonry
+  - UICollectionViewLeftAlignedLayout
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - JQCollectionViewAlignLayout
+    - Masonry
+    - UICollectionViewLeftAlignedLayout
+
+SPEC CHECKSUMS:
+  JQCollectionViewAlignLayout: 3dd5ee7967cdfa78d9539e578b8670d86094e5f2
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  UICollectionViewLeftAlignedLayout: 830bf6fa5bab9f9b464f62e3384f9d2e00b3c0f6
+
+PODFILE CHECKSUM: 190e3ec6a1624db9f24f0ce0c7ac412a00612b4f
+
+COCOAPODS: 1.5.2
